@@ -4,6 +4,8 @@ Tässä työssä analysoidaan Phyphox-sovelluksella mitattua puhelimen kiihtyvyy
 
 Työ on tehty OAMK:n Soveltava fysiikka ohjelmoinnissa -kurssin loppuprojektina. Analyysi on toteutettu Python-skriptinä Streamlit-kirjastolla.
 
+![Applied Physics Walk Analysis Gif](https://github.com/user-attachments/assets/1de29586-95d1-42c9-b0ce-d0ccbb35d898)
+
 ## Menetelmä
 - Kiihtyvyysdata suodatettiin kaistanpäästösuodattimella (noin 0.7–4 Hz)
 - Askelmäärä määritettiin kahdella tavalla:
