@@ -133,7 +133,7 @@ def butter_bandpass(x: np.ndarray, fs: float, low: float, high: float, order: in
     nyq = 0.5 * fs
     low_n = max(low / nyq, 1e-6)
     high_n = min(high / nyq, 0.999999)
-    ba = cast(tuple[np.ndarray, np.ndarray], butter(order, [low_n, high_n], btype="bandpass", output="ba"))
+    ba = cast(Tuple[np.ndarray, np.ndarray], butter(order, [low_n, high_n], btype="bandpass", output="ba"))
     b, a = ba
     return filtfilt(b, a, x)
 
